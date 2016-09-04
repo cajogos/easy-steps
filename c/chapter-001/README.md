@@ -1,5 +1,34 @@
 # 1. Getting Started
 
+## Notes
+### Compiling using GCC (GNU Compiler Collection)
+
+Run the following command:
+
+```bash
+gcc file.c -o file.exe
+```
+
+To keep the assembly files use:
+
+```bash
+gcc file.c -save-temps -o file.exe
+```
+
+Compiling multiple files into one executable:
+
+```bash
+gcc [files].c -o file.exe
+```
+
+### Running Compiled File
+
+To run the compiled file using Cygwin's terminal you must use Linux's `./`.
+
+```bash
+./file.exe
+```
+
 ## Summary
 
 - The American National Standards Institute established the standard of the C programming language.
