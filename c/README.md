@@ -16,6 +16,12 @@ To keep the assembly files use:
 gcc file.c -save-temps -o file.exe
 ```
 
+Compiling multiple files into one executable:
+
+```bash
+gcc [files].c -o file.exe
+```
+
 ### Running Compiled File
 
 To run the compiled file using Cygwin's terminal you must use Linux's `./`.
