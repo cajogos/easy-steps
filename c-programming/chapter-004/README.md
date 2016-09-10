@@ -1,5 +1,7 @@
 # 4. Performing Operations
 
+This chapter demonstrates how the C operators are used to manipulate data within a C program.
+
 ## Summary
 - Arithmetical operators can form expressions with two operands for addition `+`, subtraction `-`, multiplication `*`, division `/`, and modulus `%`.
 - Increment `++` and decrement `--` operators modify a single operand by a value of one.

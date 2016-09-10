@@ -1,5 +1,7 @@
 # 1. Getting Started
 
+Welcome to the world of C. This chapter demonstrates how to create a C program in text, then how to compile it into executable byte form.
+
 ## Summary
 
 - The American National Standards Institute established the standard of the C programming language.

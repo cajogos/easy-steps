@@ -1,5 +1,7 @@
 # 3. Setting Constant Values
 
+This chapter demonstrates how to create and utilize constant values and types within C programs.
+
 ## Summary
 - A fixed data that will never change should be stored as a constant, declared with the `const` keyword.
 - When declaring a constant the declaration must always initialize the constant with its fixed data value.

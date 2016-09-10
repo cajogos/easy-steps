@@ -1,5 +1,7 @@
 # 2. Storing Variable Values
 
+This chapter demonstrates how to store, retrieve, and manipulate various types of data using variable containers in C programs.
+
 ## Summary
 - Variable is a container in a C program in which a data value can be stored in computer memory.
 - Variable names must adhere to the C naming conventions.
