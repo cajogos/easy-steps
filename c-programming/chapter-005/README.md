@@ -4,4 +4,4 @@ This chapter demonstrates how statements can evaluate expressions to determine t
 
 ## *This chapter is still not finished!*
 
-### If it has been more than 1 month since I last updated this README (10-Sep-2016) file please LET ME KNOW! :)
+### If it has been more than 1 month since I last updated this README (11-Sep-2016) file please LET ME KNOW! :)
