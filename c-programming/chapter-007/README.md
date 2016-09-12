@@ -4,4 +4,4 @@ This chapter demonstrates how data in a C program can be referenced by pointing 
 
 ## *This chapter is still not finished!*
 
-### If it has been more than one month since I last updated this README (11-Sep-2016) file please LET ME KNOW!
+### If it has been more than one month since I last updated this README (12-Sep-2016) file please LET ME KNOW!
