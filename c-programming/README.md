@@ -8,8 +8,8 @@ This repository folder is for the book [C Programming in Easy Steps](http://amzn
 4. [Performing Operations](chapter-004) `(chapter-004)`
 5. [Making Statements](chapter-005) `(chapter-005)`
 6. [Employing Functions](chapter-006) `(chapter-006)`
-7. [Pointing to Data\*](chapter-007) `(chapter-007)`
-8. ~~[Manipulating Strings]()~~ `(chapter-008)`
+7. [Pointing to Data](chapter-007) `(chapter-007)`
+8. [Manipulating Strings\*](chapter-008) `(chapter-008)`
 9. ~~[Building Structures]()~~ `(chapter-009)`
 10. ~~[Producing Results]()~~ `(chapter-010)`
 
