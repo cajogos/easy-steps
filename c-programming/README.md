@@ -11,9 +11,7 @@ This repository folder is for the book [C Programming in Easy Steps](http://amzn
 7. [Pointing to Data](chapter-007) `(chapter-007)`
 8. [Manipulating Strings](chapter-008) `(chapter-008)`
 9. [Building Structures](chapter-009) `(chapter-009)`
-10. [Producing Results\*](chapter-010) `(chapter-010)`
-
-\* not completed.
+10. [Producing Results](chapter-010) `(chapter-010)`
 
 ## Notes
 ### Compiling using GCC (GNU Compiler Collection)
