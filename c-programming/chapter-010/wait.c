@@ -26,5 +26,8 @@ int main()
 void wait(int seconds)
 {
 	clock_t end_wait = (clock() + (seconds * CLOCKS_PER_SEC));
-	while (clock() < end_wait) {}
+	while (clock() < end_wait)
+	{
+		// Terminates when the current time reaches the future point
+	}
 }
