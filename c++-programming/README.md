@@ -2,8 +2,8 @@
 This repository folder is for the book [C++ Programming in Easy Steps](http://amzn.to/2cQTgmr).
 
 ## Table of Contents
-1. [Getting Started\*](chapter-001) `(chapter-001)`
-2. ~~[Performing Operations]()~~ `(chapter-002)`
+1. [Getting Started](chapter-001) `(chapter-001)`
+2. ~~[Performing Operations\*]()~~ `(chapter-002)`
 3. ~~[Making Statements]()~~ `(chapter-003)`
 4. ~~[Handling Strings]()~~ `(chapter-004)`
 5. ~~[Reading and Writing Files]()~~ `(chapter-005)`
