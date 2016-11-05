@@ -5,8 +5,8 @@ This repository folder is for the book [C++ Programming in Easy Steps](http://am
 1. [Getting Started](chapter-001) `(chapter-001)`
 2. [Performing Operations](chapter-002) `(chapter-002)`
 3. [Making Statements](chapter-003) `(chapter-003)`
-4. [Handling Strings\*](chapter-004) `(chapter-004)`
-5. ~~[Reading and Writing Files]()~~ `(chapter-005)`
+4. [Handling Strings](chapter-004) `(chapter-004)`
+5. [Reading and Writing Files\*](chapter-005) `(chapter-005)`
 6. ~~[Pointing to Data]()~~ `(chapter-006)`
 7. ~~[Creating Classes and Objects]()~~ `(chapter-007)`
 8. ~~[Harnessing Polymorphism]()~~ `(chapter-008)`
