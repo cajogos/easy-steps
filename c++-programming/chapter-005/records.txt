@@ -1,0 +1,4 @@
+Carlos	Ferreira	Developer	3333
+John	Smith	Sales	2595
+Mary	Jones	Wages	1235
+Paul	Harris	Accts	1233
