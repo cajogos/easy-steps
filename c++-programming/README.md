@@ -8,7 +8,7 @@ This repository folder is for the book [C++ Programming in Easy Steps](http://am
 4. [Handling Strings](chapter-004) `(chapter-004)`
 5. [Reading and Writing Files](chapter-005) `(chapter-005)`
 6. [Pointing to Data](chapter-006) `(chapter-006)`
-7. [Creating Classes and Objects](chapter-007) `(chapter-007)`
+7. [Creating Classes and Objects\*](chapter-007) `(chapter-007)`
 8. ~~[Harnessing Polymorphism\*]()~~ `(chapter-008)`
 9. ~~[Processing Macros\*]()~~ `(chapter-009)`
 10. ~~[Programming Visually\*]()~~ `(chapter-010)`
