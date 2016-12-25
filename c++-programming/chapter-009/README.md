@@ -25,18 +25,3 @@ c++ prog.cpp -save-temps-c
 * The preprocessor `#` stringizing operator converts a series of characters passed as a macro argument into a string value.
 * Two terms can be combined into a single term by the preprocessor `##` merging operator.
 * An `ASSERT` macro function is useful for debugging code and may be controlled by a `DEBUG` macro to easily turn debugging on or off.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
