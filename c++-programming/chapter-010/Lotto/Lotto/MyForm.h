@@ -172,11 +172,29 @@ namespace Lotto {
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
 			this->Text = L"Lotto Number Generator";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
+	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e)
+	{
+		Clear();
+	}
+
+	private: System::Void Clear()
+	{
+		this->label1->Text = "...";
+		this->label2->Text = "...";
+		this->label3->Text = "...";
+		this->label4->Text = "...";
+		this->label5->Text = "...";
+		this->label6->Text = "...";
+
+		this->getBtn->Enabled = true;
+		this->resetBtn->Enabled = false;
+	}
 	};
 }
