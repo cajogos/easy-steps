@@ -1,5 +1,8 @@
 #pragma once
 
+#include <cstdlib>
+#include <ctime>
+
 namespace Lotto {
 
 	using namespace System;
@@ -136,6 +139,7 @@ namespace Lotto {
 			this->getBtn->TabIndex = 6;
 			this->getBtn->Text = L"Get My Lucky Numbers";
 			this->getBtn->UseVisualStyleBackColor = true;
+			this->getBtn->Click += gcnew System::EventHandler(this, &MyForm::getBtn_Click);
 			// 
 			// resetBtn
 			// 
@@ -145,6 +149,7 @@ namespace Lotto {
 			this->resetBtn->TabIndex = 7;
 			this->resetBtn->Text = L"Reset";
 			this->resetBtn->UseVisualStyleBackColor = true;
+			this->resetBtn->Click += gcnew System::EventHandler(this, &MyForm::resetBtn_Click);
 			// 
 			// pictureBox1
 			// 
@@ -182,6 +187,7 @@ namespace Lotto {
 	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e)
 	{
 		Clear();
+		srand((int) time(0));
 	}
 
 	private: System::Void Clear()
@@ -195,6 +201,37 @@ namespace Lotto {
 
 		this->getBtn->Enabled = true;
 		this->resetBtn->Enabled = false;
+	}
+	private: System::Void resetBtn_Click(System::Object^  sender, System::EventArgs^  e)
+	{
+		Clear();
+	}
+	private: System::Void getBtn_Click(System::Object^  sender, System::EventArgs^  e)
+	{
+		int i, j, k, nums[50];
+
+		for (i = 1; i < 50; i++)
+		{
+			nums[i] = i;
+		}
+
+		for (i = 1; i < 50; i++)
+		{
+			j = (rand() % 49) + 1;
+			k = nums[i];
+			nums[i] = nums[j];
+			nums[j] = k;
+		}
+
+		this->label1->Text = Convert::ToString(nums[1]);
+		this->label2->Text = Convert::ToString(nums[2]);
+		this->label3->Text = Convert::ToString(nums[3]);
+		this->label4->Text = Convert::ToString(nums[4]);
+		this->label5->Text = Convert::ToString(nums[5]);
+		this->label6->Text = Convert::ToString(nums[6]);
+
+		this->getBtn->Enabled = false;
+		this->resetBtn->Enabled = true;
 	}
 	};
 }
