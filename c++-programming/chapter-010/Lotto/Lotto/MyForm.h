@@ -76,7 +76,7 @@ namespace Lotto {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(43, 117);
+			this->label1->Location = System::Drawing::Point(164, 41);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(35, 13);
 			this->label1->TabIndex = 0;
@@ -85,7 +85,7 @@ namespace Lotto {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(114, 117);
+			this->label2->Location = System::Drawing::Point(224, 41);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(35, 13);
 			this->label2->TabIndex = 1;
@@ -94,7 +94,7 @@ namespace Lotto {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(185, 117);
+			this->label3->Location = System::Drawing::Point(284, 41);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(35, 13);
 			this->label3->TabIndex = 2;
@@ -103,7 +103,7 @@ namespace Lotto {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(256, 117);
+			this->label4->Location = System::Drawing::Point(344, 41);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(35, 13);
 			this->label4->TabIndex = 3;
@@ -112,7 +112,7 @@ namespace Lotto {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(327, 117);
+			this->label5->Location = System::Drawing::Point(404, 41);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(35, 13);
 			this->label5->TabIndex = 4;
@@ -121,7 +121,7 @@ namespace Lotto {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(398, 117);
+			this->label6->Location = System::Drawing::Point(464, 41);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(35, 13);
 			this->label6->TabIndex = 5;
@@ -129,16 +129,17 @@ namespace Lotto {
 			// 
 			// getBtn
 			// 
-			this->getBtn->Location = System::Drawing::Point(126, 170);
+			this->getBtn->AutoSize = true;
+			this->getBtn->Location = System::Drawing::Point(163, 92);
 			this->getBtn->Name = L"getBtn";
-			this->getBtn->Size = System::Drawing::Size(119, 40);
+			this->getBtn->Size = System::Drawing::Size(186, 40);
 			this->getBtn->TabIndex = 6;
 			this->getBtn->Text = L"Get My Lucky Numbers";
 			this->getBtn->UseVisualStyleBackColor = true;
 			// 
 			// resetBtn
 			// 
-			this->resetBtn->Location = System::Drawing::Point(274, 170);
+			this->resetBtn->Location = System::Drawing::Point(380, 92);
 			this->resetBtn->Name = L"resetBtn";
 			this->resetBtn->Size = System::Drawing::Size(119, 40);
 			this->resetBtn->TabIndex = 7;
@@ -148,9 +149,9 @@ namespace Lotto {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(126, 253);
+			this->pictureBox1->Location = System::Drawing::Point(12, 12);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(248, 89);
+			this->pictureBox1->Size = System::Drawing::Size(120, 120);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 8;
 			this->pictureBox1->TabStop = false;
@@ -159,7 +160,7 @@ namespace Lotto {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(561, 437);
+			this->ClientSize = System::Drawing::Size(523, 142);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->resetBtn);
 			this->Controls->Add(this->getBtn);
