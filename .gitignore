@@ -3,3 +3,4 @@
 *.stackdump
 *.o
 *.ii
+.idea/
