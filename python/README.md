@@ -3,8 +3,8 @@ This repository folder is for the book [Python in Easy Steps](http://amzn.to/2jP
 
 ## Table of Contents
 1. [Getting Started](chapter-001) `(chapter-001)`
-2. [Performing Operations](chapter-002)* `(chapter-002)`
-3. ~~[Making Statements]()*~~ `(chapter-003)`
+2. [Performing Operations](chapter-002) `(chapter-002)`
+3. [Making Statements](chapter-003)* `(chapter-003)`
 4. ~~[Defining Functions]()*~~ `(chapter-004)`
 5. ~~[Importing Modules]()*~~ `(chapter-005)`
 6. ~~[Managing Strings]()*~~ `(chapter-006)`
