@@ -1,5 +1,6 @@
 *.exe
 *.txt
+*.dat
 *.stackdump
 *.o
 *.ii
