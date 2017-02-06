@@ -10,7 +10,7 @@ This repository folder is for the book [Python in Easy Steps](http://amzn.to/2jP
 6. [Managing Strings](chapter-006) `(chapter-006)`
 7. [Programming Objects](chapter-007) `(chapter-007)`
 8. [Processing Requests](chapter-008) `(chapter-008)`
-9. [Building Interfaces](chapter-009)* `(chapter-009)`
-10. ~~[Developing Applications]()*~~ `(chapter-010)`
+9. [Building Interfaces](chapter-009) `(chapter-009)`
+10. [Developing Applications](chapter-010)* `(chapter-010)`
 
 \* Chapter not finished.
